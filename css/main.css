@@ -1,10 +1,40 @@
-
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+}
+.navbar{
+    background-color: #60B5CB;
+}
+.nav-item{
+    color: #fff;
+}
+header {
+    height: 120px;
+}
+header .row {
+    max-height: 100%;
+}
+header .logo {
+    height: 120px;
+}
+header .logo img {
+    max-height: 100%;
+}
 .banner {
     background-image: url("../images/image5.jpg");
     background-size: cover;
     color: #fff;   
 }
-footer{
-    /* color:#fff; */
-    /* color:#212529; */
+footer {
+    background-color: #60B5CB;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+@media(max-width: 500px){
+    .banner {
+        display: none;
+    }
 }

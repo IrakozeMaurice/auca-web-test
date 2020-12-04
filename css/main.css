@@ -1,32 +1,38 @@
+
 nav ul {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     text-transform: uppercase;
 }
-.navbar{
+
+.navbar {
     background-color: #60B5CB;
 }
-.nav-item{
+
+.navbar-nav a{
     color: #fff;
 }
+
 header {
     height: 120px;
 }
+
 header .row {
     max-height: 100%;
 }
+
 header .logo {
     height: 120px;
 }
+
 header .logo img {
     max-height: 100%;
 }
+
 .banner {
     background-image: url("../images/image5.jpg");
     background-size: cover;
     color: #fff;   
 }
+
 footer {
     background-color: #60B5CB;
     color: #fff;
